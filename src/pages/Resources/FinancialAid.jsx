@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import cdhciImg from "../../assets/cdhciinfo.jpg";
+import fscdImg from "../../assets/fscd.jpg";
 
 
 const SkeletonCard = () => (
@@ -137,7 +139,7 @@ const FinancialAid = () => {
   const financialAidData = [
     {
       title: "Alberta Blue Cross",
-      image: "/src/assets/cdhci_info.jpg", // Replace with actual image path
+      image: cdhciImg,
       description:
         "Alberta Blue Cross provides comprehensive health coverage and financial support for various medical needs and healthcare services.",
       fundingInfo: (
@@ -180,7 +182,7 @@ const FinancialAid = () => {
     },
     {
       title: "Family Support for Children with Disabilities (FSCD)",
-      image: "/src/assets/fscd.jpg", // Replace with actual image path
+      image: fscdImg,
       description:
         "FSCD provides a wide range of supports and services to families caring for children with disabilities to promote healthy development and encourage participation in community life.",
       fundingInfo: (

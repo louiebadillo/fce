@@ -1,6 +1,7 @@
 import { Activity, Baby, Backpack, BotMessageSquare, Hospital, House, PillBottle, Salad, SquareActivity } from "lucide-react";
 import { Cross } from "lucide-react";
 import { HeartPulse } from "lucide-react";
+import personalcareImg from "../assets/personalcare.jpg"
 
 export const navItems = [
   { label: "Services", href: "/services" },
@@ -13,7 +14,7 @@ export const features = [
     text: "Personal Care",
     description:
       "Professional assistance with daily living activities including bathing, dressing, grooming, and mobility support, delivered with dignity and compassion in the comfort of your home.",
-    image: "src/assets/personalcare.jpg",
+    image: personalcareImg,
     path: "/services/personal-care",
   },
   {

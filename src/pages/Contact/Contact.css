@@ -1,0 +1,102 @@
+/* Contact.css */
+
+/* Base container styles */
+.contact-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+/* Form group spacing */
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+/* Custom select arrow */
+.form-group select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23333'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 1.5rem auto;
+    border-color: #d1d5db; /* Default gray border */
+}
+
+/* Validation styles for inputs and textarea only */
+.form-group input:not(:placeholder-shown):valid,
+.form-group textarea:not(:placeholder-shown):valid {
+    border-color: #22c55e;
+    background-color: #f0fdf4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2322c55e'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 1.2rem auto;
+    padding-right: 2.5rem;
+}
+
+.form-group input:not(:placeholder-shown):invalid,
+.form-group textarea:not(:placeholder-shown):invalid {
+    border-color: #ef4444;
+    background-color: #fef2f2;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ef4444'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 1.2rem auto;
+    padding-right: 2.5rem;
+}
+
+/* Remove validation icons from textarea */
+.form-group textarea:valid,
+.form-group textarea:invalid {
+    background-image: none;
+    padding-right: 0.75rem;
+}
+
+/* Smooth transitions */
+.form-group input,
+.form-group select,
+.form-group textarea {
+    transition: all 0.3s ease;
+}
+
+/* Placeholder styles */
+::placeholder {
+    color: #9ca3af;
+    opacity: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .contact-container {
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .form-group input:valid,
+    .form-group input:invalid {
+        background-size: 1rem auto;
+    }
+}
+
+/* Animation for validation messages */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.form-group p {
+    animation: slideDown 0.2s ease-out;
+}
+
+/* Select validation - only show green when valid */
+.form-group select:valid:not([value=""]) {
+    border-color: #22c55e;
+    background-color: #f0fdf4;
+}

@@ -1,0 +1,32 @@
+/* src/pages/Services/Services.css */
+.service-card {
+    transform: translateY(0);
+    transition: all 0.3s ease-out;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  /* Optional: Add smooth scrolling for the whole page */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Optional: Add custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

@@ -44,7 +44,7 @@ const Intro = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-white">
+    <section className="pt-10 px-4 bg-white">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {introData.map((item, index) => (

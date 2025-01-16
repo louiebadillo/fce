@@ -4,9 +4,7 @@ import seniorwithchild_no_bg from "../assets/seniorwithchild_no_bg.png";
 const Hero = () => {
   return (
     <div className="relative w-full bg-orange-50 min-h-[550px] overflow-hidden">
-      {/* Content Container */}
       <div className="max-w-[1600px] mx-auto relative z-10 h-[550px]">
-        {/* Text container - Adjusted top positioning */}
         <div className="absolute top-[10%] md:top-[10%] left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-32 lg:left-40 w-full px-4 md:px-0 md:w-auto md:max-w-xl text-center md:text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
             <span className="text-gray-800">Home is Where </span>
@@ -35,7 +33,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Background Image */}
       <div className="absolute bottom-0 right-0 w-1/2 h-full hidden md:block">
         <img
           src={seniorwithchild_no_bg}

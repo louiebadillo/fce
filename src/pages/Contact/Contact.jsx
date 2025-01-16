@@ -25,6 +25,7 @@ const Contact = () => {
     "Support for Individuals With Special Needs",
     "Respite Care",
     "Palliative Care",
+    "Staffing",
     "Careers",
     "Others",
   ];

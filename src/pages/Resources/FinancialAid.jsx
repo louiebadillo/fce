@@ -4,7 +4,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import cdhciImg from "../../assets/cdhciinfo.jpg";
 import fscdImg from "../../assets/fscd.jpg";
 
-
 const SkeletonCard = () => (
   <div className="bg-white rounded-lg shadow-lg overflow-hidden animate-pulse">
     <div className="w-full h-48 bg-gray-200" />
@@ -20,7 +19,6 @@ const SkeletonCard = () => (
     </div>
   </div>
 );
-
 
 const Accordion = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,7 +56,6 @@ const Accordion = ({ title, children }) => {
     </div>
   );
 };
-
 
 const FinancialAidCard = ({
   title,
@@ -151,6 +148,16 @@ const FinancialAid = () => {
             <li>Coverage for prescribed medical services and equipment</li>
             <li>Supplementary health benefit programs</li>
           </ul>
+          <div className="mt-4">
+            <a
+              href="https://www.ab.bluecross.ca/resources/government-programs/client-directed-home-care.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline"
+            >
+              Visit Alberta Blue Cross Client Directed Home Care Program →
+            </a>
+          </div>
         </div>
       ),
       eligibility: (
@@ -177,7 +184,7 @@ const FinancialAid = () => {
       ),
       buttonLink: {
         url: "/resources/cdhci",
-        text: "Learn More"
+        text: "Learn More",
       },
     },
     {
@@ -220,7 +227,7 @@ const FinancialAid = () => {
       ),
       buttonLink: {
         url: "https://www.alberta.ca/fscd",
-        text: "Learn More"
+        text: "Learn More",
       },
     },
   ];

@@ -11,13 +11,10 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-10">
         <div className="flex justify-center">
           {" "}
-          {/* Added flex container */}
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-1 max-w-4xl">
             {" "}
-            {/* Added max-width and increased gap */}
             <div>
               {" "}
-              {/* Added text-center */}
               <h3 className="text-md font-semibold mb-4">Pages</h3>
               <ul className="space-y-2 text-sm">
                 {resourcesLinks.map((link, index) => (
@@ -49,7 +46,6 @@ const Footer = () => {
             </div>
             <div className="flex flex-col">
               {" "}
-              {/* Added flex and items-center */}
               <img src={logo} alt="logo" className="h-14 w-40 mb-2" />
               <ul className="space-y-2 pt-2 text-sm">
                 {communityLinks.map((link, index) => (

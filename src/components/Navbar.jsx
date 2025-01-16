@@ -64,13 +64,19 @@ const Navbar = () => {
                   to="/resources/cdhci"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 transition-colors duration-150"
                 >
-                  CDHCI
+                  CDHCI - Alberta Blue Cross
                 </Link>
                 <Link
                   to="/resources/financial-aid"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 transition-colors duration-150"
                 >
                   Financial Aid Resources
+                </Link>
+                <Link
+                  to="/services/staffing"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 transition-colors duration-150"
+                >
+                  Facility Staffing Solutions
                 </Link>
                 <Link
                   to="/resources/faq"
@@ -85,12 +91,6 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="hidden lg:flex justify-center items-center">
-            <a
-              href="tel:+14036303717"
-              className="hover:text-orange-500 transition-colors mr-3"
-            >
-              (403)-630-3717
-            </a>
             <Link
               to="/contact"
               className="py-2 px-3 rounded-md bg-orange-500 text-white hover:bg-orange-600 transition-colors duration-300"
@@ -155,7 +155,7 @@ const Navbar = () => {
                     onClick={toggleNavbar}
                     className="text-gray-700 hover:text-orange-600 transition-colors duration-150"
                   >
-                    CDHCI
+                    CDHCI - Alberta Blue Cross
                   </Link>
                 </li>
                 <li className="py-2">
@@ -165,6 +165,15 @@ const Navbar = () => {
                     className="text-gray-700 hover:text-orange-600 transition-colors duration-150"
                   >
                     Financial Aid Resources
+                  </Link>
+                </li>
+                <li className="py-2">
+                  <Link
+                    to="/services/staffing"
+                    onClick={toggleNavbar}
+                    className="text-gray-700 hover:text-orange-600 transition-colors duration-150"
+                  >
+                    Facility Staffing Solutions
                   </Link>
                 </li>
                 <li className="py-2">
@@ -185,12 +194,6 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="mt-6 flex items-center space-y-4">
-            <a
-              href="tel:+14036303717"
-              className="font-semibold hover:text-orange-500 transition-colors pt-3 mr-4"
-            >
-              +1(403)-630-3717
-            </a>
             <Link
               to="/contact"
               className="py-2 px-3 rounded-md bg-orange-500 text-white hover:bg-orange-600 transition-colors duration-300"

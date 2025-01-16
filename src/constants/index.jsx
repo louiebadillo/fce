@@ -8,7 +8,7 @@ import specialneedsImg from "../assets/specialneeds.jpg"
 import outtingImg from "../assets/outting.jpg"
 import respiteImg from "../assets/respite.jpg"
 import palliativeImg from "../assets/palliative.jpg"
-
+import staffingImg from "../assets/staffing.jpg"
 
 
 export const navItems = [
@@ -73,6 +73,14 @@ export const features = [
     description:
       "Compassionate end-of-life care focusing on comfort, dignity, and quality of life through specialized support for both clients and their families.",
   },
+  {
+    icon: <Hospital />,
+    text: "Healthcare Facility Staffing",
+    image: staffingImg,
+    path: "/services/staffing",
+    description:
+      "Reliable staffing solutions for care facilities experiencing shortages. Our carefully selected healthcare professionals - including nurses, health care aides, and community support workers - ensure continuity of high-quality, person-centred care.",
+  },
 ];
 
 
@@ -86,6 +94,7 @@ export const resourcesLinks = [
 export const platformLinks = [
   { href: "/resources/cdhci", text: "CDHCI invoicing" },
   { href: "/resources/financial-aid", text: "Financial Aid" },
+  { href: "/services/staffing", text: "Staffing Solutions" },
   { href: "/resources/faq", text: "FAQ" },
   {
     text: "Facebook",

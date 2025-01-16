@@ -21,11 +21,7 @@ import CDHCI from "./pages/Resources/CDHCI";
 import FinancialAid from "./pages/Resources/FinancialAid";
 import FAQ from "./pages/Resources/FAQ"
 import JobApplication from "./pages/Careers/JobApplication";
-
-
-
-
-// Import other pages as needed
+import Staffing from "./pages/Services/ServicePages/Staffing";
 
 const App = () => {
   return (
@@ -33,13 +29,11 @@ const App = () => {
       <ScrollToTop/>
       <div>
         <Navbar />
-        {/* <div className="max-w-7xl mx-auto px-6"> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/services" element={<Services />} />
             <Route exact path="/contact" element={<Contact />} />
-            {/* Add more routes here for other pages */}
 
             {/* Services Routes */}
             <Route path="/services/companionship" element={<Companionship />} />
@@ -52,6 +46,8 @@ const App = () => {
             <Route path="/services/support-special-needs" element={<SpecialNeeds />} />
             <Route path="/services/dementia-care" element={<DementiaCare />} />
             <Route path="/services/meal-preparation" element={<MealPreparation />} />
+            <Route path="/services/staffing" element={<Staffing />} />
+
 
             <Route path="/resources/cdhci" element={<CDHCI />} />
             <Route path="/resources/faq" element={<FAQ />} />
@@ -62,7 +58,6 @@ const App = () => {
           </Routes>
         </div>
         <Footer />
-      {/* </div> */}
     </Router>
   );
 };

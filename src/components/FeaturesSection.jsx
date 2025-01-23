@@ -20,6 +20,9 @@ const FeaturesSection = () => {
             That's why we go above and beyond to provide personalized care
             solutions that make life easier for both clients and their families.
           </p>
+          <h2 className="text-2xl sm:text-4xl lg:text-4xl mt-10 lg:mt-20 tracking-wide">
+          Explore Our Home Care Services
+        </h2>
         </div>
       </div>
       <div className="flex flex-wrap mt-10 mb-10 lg:mt-20 gap-6 px-4 sm:px-20">
@@ -126,16 +129,16 @@ const FeaturesSection = () => {
           </div>
 
           {/* CTA Section */}
-          <div className="text-center mt-12">
+          <div className="text-center mt-12 flex flex-col sm:flex-row justify-center gap-4 sm:gap-2 px-4">
             <Link
               to="/contact"
-              className="inline-block border-2 border-orange-500 text-orange-500 px-8 py-3 rounded-md hover:bg-orange-500 hover:text-white transition-colors mx-2"
+              className="w-full sm:w-auto border-2 border-orange-500 text-orange-500 px-8 py-3 rounded-md hover:bg-orange-500 hover:text-white transition-colors"
             >
               Contact Us
             </Link>
             <a
               href="tel:14036303717"
-              className="inline-block bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors mx-2"
+              className="w-full sm:w-auto bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors"
             >
               Call (403) 630-3717
             </a>

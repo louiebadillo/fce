@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 right-0 w-1/2 h-full hidden md:block">
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 w-full md:w-1/2 h-full opacity-70 md:opacity-100">
         <img
           src={seniorwithchild_no_bg}
           alt="Hero Background"

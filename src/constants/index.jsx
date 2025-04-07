@@ -9,6 +9,7 @@ import outtingImg from "../assets/outting.jpg"
 import respiteImg from "../assets/respite.jpg"
 import palliativeImg from "../assets/palliative.jpg"
 import staffingImg from "../assets/staffing.jpg"
+import housekeepingImg from "../assets/housekeeping.jpg"
 
 
 export const navItems = [
@@ -81,6 +82,14 @@ export const features = [
     description:
       "Reliable staffing solutions for care facilities experiencing shortages. Our carefully selected healthcare professionals - including nurses, health care aides, and community support workers - ensure continuity of high-quality, person-centred care.",
   },
+  {
+    icon: <Hospital />,
+    text: "Housekeeping / Cleaning Service",
+    image: housekeepingImg,
+    path: "/services/housekeeping",
+    description:
+      "From regular maintenance to deep cleaning, our professional housekeeping team ensures your home stays pristine and welcoming, giving you more time to focus on what matters most.",
+  },
 ];
 
 
@@ -103,7 +112,7 @@ export const platformLinks = [
 ];
 
 export const communityLinks = [
-  { href: "#", text: "1324 36 Ave NE" },
+  { href: "#", text: "128 Harvest Oak Way NE" },
   { href: "#", text: "Calgary, AB T2E 8S1" },
   { href: "mailto:info@familycareexperts.com", text: "info@familycareexperts.com" },
   { href: "#tel:+14036303717", text: "+1-403-630-3717" },

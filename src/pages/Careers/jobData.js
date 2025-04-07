@@ -20,13 +20,6 @@ export const jobDetails = [
         "Strong communication and interpersonal skills",
         "Patience and ability to work with children"
       ],
-      // benefits: [
-      //   "Competitive salary",
-      //   "Flexible scheduling options",
-      //   "Professional development opportunities",
-      //   "Supportive work environment",
-      //   "Health benefits package"
-      // ]
     },
     {
       title: "Health Care Aides",
@@ -49,13 +42,6 @@ export const jobDetails = [
         "Physical ability to assist clients with mobility",
         "Strong communication skills"
       ],
-      // benefits: [
-      //   "Competitive salary",
-      //   "Health and dental benefits",
-      //   "Flexible scheduling",
-      //   "Professional development opportunities",
-      //   "Supportive team environment"
-      // ]
     },
     {
         title: "Licensed Practical Nurse (LPN)",
@@ -82,15 +68,6 @@ export const jobDetails = [
           "Physical ability to assist with patient transfers and positioning",
           "Clean criminal record check"
         ],
-        // benefits: [
-        //   "Competitive salary",
-        //   "Comprehensive health and dental benefits",
-        //   "Flexible scheduling options",
-        //   "Professional development opportunities",
-        //   "Paid vacation and sick leave",
-        //   "Supportive work environment",
-        //   "Career advancement opportunities"
-        // ]
       },
     {
       title: "Community Support Workers",
@@ -113,13 +90,6 @@ export const jobDetails = [
         "Knowledge of community resources",
         "Clean criminal record check"
       ],
-      // benefits: [
-      //   "Competitive salary",
-      //   "Comprehensive benefits package",
-      //   "Professional development opportunities",
-      //   "Work-life balance",
-      //   "Supportive team environment"
-      // ]
     },
     {
       title: "Respite Care Providers",
@@ -142,13 +112,6 @@ export const jobDetails = [
         "Excellent communication skills",
         "Flexibility in scheduling"
       ],
-      // benefits: [
-      //   "Competitive pay rates",
-      //   "Flexible scheduling",
-      //   "Training opportunities",
-      //   "Supportive management team",
-      //   "Professional growth opportunities"
-      // ]
     },
     {
       title: "Massage Therapists",
@@ -171,13 +134,6 @@ export const jobDetails = [
         "Excellent manual dexterity",
         "Professional communication skills"
       ],
-      // benefits: [
-      //   "Competitive commission structure",
-      //   "Flexible scheduling",
-      //   "Professional liability insurance",
-      //   "Continuing education support",
-      //   "Health benefits package"
-      // ]
     },
     {
       title: "Companions",
@@ -200,13 +156,7 @@ export const jobDetails = [
         "Valid driver's license (preferred)",
         "Compassionate and patient demeanor"
       ],
-      // benefits: [
-      //   "Competitive hourly rates",
-      //   "Flexible scheduling",
-      //   "Training and support",
-      //   "Mileage reimbursement",
-      //   "Rewarding work environment"
-      // ]
+    
     },
     {
       title: "Nail and Hair Service Providers",
@@ -229,13 +179,6 @@ export const jobDetails = [
         "Strong customer service skills",
         "Attention to detail and creativity"
       ],
-      // benefits: [
-      //   "Competitive commission structure",
-      //   "Flexible scheduling",
-      //   "Professional development opportunities",
-      //   "Product discounts",
-      //   "Supportive team environment"
-      // ]
     },
     {
       title: "Foot Care Nurses",
@@ -258,12 +201,58 @@ export const jobDetails = [
         "Strong assessment skills",
         "Knowledge of diabetic foot care"
       ],
-      // benefits: [
-      //   "Competitive salary",
-      //   "Health and dental benefits",
-      //   "Flexible scheduling",
-      //   "Continuing education support",
-      //   "Professional liability insurance"
-      // ]
+  
+    },
+    {
+      title: "Housekeepers/Cleaners",
+      jobId: "housekeeping",
+      location: "Calgary",
+      type: "Full-time / Part-time",
+      isActive: true,
+      summary: "Our professional housekeepers maintain pristine environments for our clients, delivering thorough and reliable cleaning services. They ensure spaces are not just clean, but truly comfortable and welcoming for residents and families.",
+      responsibilities: [
+        "Perform thorough cleaning of residential spaces including bathrooms, kitchens, and living areas",
+        "Follow detailed cleaning checklists and maintain high standards of cleanliness",
+        "Use appropriate cleaning products and equipment safely and effectively",
+        "Maintain client confidentiality and respect for personal space",
+        "Report any maintenance issues or concerns to supervisors",
+        "Organize and manage cleaning supplies inventory"
+      ],
+      qualifications: [
+        "Previous professional cleaning or housekeeping experience",
+        "Knowledge of cleaning products and safety protocols",
+        "Strong attention to detail",
+        "Physical ability to perform cleaning tasks",
+        "Reliable transportation",
+        "Clean criminal record check",
+        "Excellent time management skills"
+      ]
+    },
+    {
+      title: "Warehouse Associates",
+      jobId: "warehouse",
+      location: "Calgary",
+      type: "Full-time / Part-time",
+      isActive: true,
+      summary: "Warehouse Associates play a crucial role in maintaining efficient operations within our facilities. They ensure accurate inventory management, safe handling of materials, and timely processing of orders in a fast-paced environment.",
+      responsibilities: [
+        "Perform picking, packing, and shipping duties with accuracy",
+        "Operate material handling equipment safely and efficiently",
+        "Maintain organized and clean warehouse spaces",
+        "Conduct inventory counts and maintain accurate records",
+        "Follow safety protocols and procedures",
+        "Assist with loading and unloading of materials",
+        "Collaborate with team members to meet operational goals"
+      ],
+      qualifications: [
+        "Previous warehouse experience preferred",
+        "Forklift certification (asset)",
+        "Physical ability to lift up to 50 lbs regularly",
+        "Strong attention to detail and organizational skills",
+        "Ability to work in a fast-paced environment",
+        "Basic computer skills",
+        "Clean criminal record check",
+        "Reliable transportation"
+      ]
     }
   ];

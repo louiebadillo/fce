@@ -13,8 +13,6 @@ const ApplicationForm = ({ jobTitle }) => {
     city: "",
     allowCommunication: false,
     referredBy: "",
-    resume: null,
-    coverLetter: null,
   });
 
   const [touchedFields, setTouchedFields] = useState({});
@@ -89,6 +87,21 @@ const ApplicationForm = ({ jobTitle }) => {
   return (
     <div className="bg-white rounded-lg shadow-md p-8">
       <h2 className="text-2xl font-semibold mb-6">Apply Now - {jobTitle}</h2>
+
+      <div className="mb-6 p-4 bg-blue-50 rounded-md">
+        <p className="text-blue-800">
+          <span className="font-semibold">Important Note:</span> Please send your resume to{" "}
+          <a 
+            href="mailto:info@familycareexperts.com" 
+            className="text-orange-500 hover:text-orange-600 underline"
+          >
+            info@familycareexperts.com
+          </a>
+          {" "}with the subject line "Application for {jobTitle}" before or after submitting this application form. Thank you!
+        </p>
+      </div>
+
+
       <form onSubmit={onSubmit} className="space-y-6">
         {/* Personal Information */}
         <div className="grid md:grid-cols-2 gap-6">
@@ -250,44 +263,6 @@ const ApplicationForm = ({ jobTitle }) => {
             className="w-full px-4 py-2 border border-gray-300 rounded-md
               focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
-        </div>
-
-        {/* File Uploads */}
-        <div className="space-y-4">
-          <div className="form-group">
-            <label className="block text-gray-700 font-medium mb-2">
-              Upload Resume *
-            </label>
-            <input
-              type="file"
-              name="resume"
-              required
-              accept=".pdf,.doc,.docx"
-              onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-md
-                focus:outline-none focus:ring-2 focus:ring-orange-500"
-            />
-            <p className="mt-1 text-sm text-gray-500">
-              Accepted formats: PDF, DOC, DOCX
-            </p>
-          </div>
-
-          <div className="form-group">
-            <label className="block text-gray-700 font-medium mb-2">
-              Upload Cover Letter (Optional)
-            </label>
-            <input
-              type="file"
-              name="coverLetter"
-              accept=".pdf,.doc,.docx"
-              onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-md
-                focus:outline-none focus:ring-2 focus:ring-orange-500"
-            />
-            <p className="mt-1 text-sm text-gray-500">
-              Accepted formats: PDF, DOC, DOCX
-            </p>
-          </div>
         </div>
 
         {/* Consent Checkbox */}

@@ -27,7 +27,7 @@ const Intro = () => {
       image: Icon1,
       title: "Personalized Care Plan",
       description:
-        "At Family Care Experts, we create a customized care plan tailored to your family's unique needs. Our comprehensive approach ensures quality care and support services for your loved one, while helping you maintain balance in your life and peace of mind.",
+        "At Bonne Haven, we create a customized care plan tailored to your family's unique needs. Our comprehensive approach ensures quality care and support services for your loved one, while helping you maintain balance in your life and peace of mind.",
     },
     {
       image: Icon2,

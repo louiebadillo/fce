@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import seniorwithchild_no_bg from "../assets/seniorwithchild_no_bg.png";
+import familyhero1 from "../assets/familyhero1.png";
 
 const Hero = () => {
   return (
@@ -35,7 +35,7 @@ const Hero = () => {
 
       <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 w-full md:w-1/2 h-full opacity-70 md:opacity-100">
         <img
-          src={seniorwithchild_no_bg}
+          src={familyhero1}
           alt="Hero Background"
           className="object-contain object-bottom h-full w-full"
         />

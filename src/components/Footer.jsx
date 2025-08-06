@@ -102,7 +102,7 @@ const Footer = () => {
       <div className="w-full bg-slate-400 py-4">
         <div className="container mx-auto px-4">
           <div className="flex justify-center gap-8 text-sm">
-            <p>2024 Family Care Experts</p>
+            <p>2025 Bonne Haven</p>
             <p>|</p>
             <p>All rights reserved</p>
           </div>

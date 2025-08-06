@@ -228,31 +228,31 @@ export const jobDetails = [
         "Excellent time management skills"
       ]
     },
-    {
-      title: "Warehouse Associates",
-      jobId: "warehouse",
-      location: "Calgary",
-      type: "Full-time / Part-time",
-      isActive: true,
-      summary: "Warehouse Associates play a crucial role in maintaining efficient operations within our facilities. They ensure accurate inventory management, safe handling of materials, and timely processing of orders in a fast-paced environment.",
-      responsibilities: [
-        "Perform picking, packing, and shipping duties with accuracy",
-        "Operate material handling equipment safely and efficiently",
-        "Maintain organized and clean warehouse spaces",
-        "Conduct inventory counts and maintain accurate records",
-        "Follow safety protocols and procedures",
-        "Assist with loading and unloading of materials",
-        "Collaborate with team members to meet operational goals"
-      ],
-      qualifications: [
-        "Previous warehouse experience preferred",
-        "Forklift certification (asset)",
-        "Physical ability to lift up to 50 lbs regularly",
-        "Strong attention to detail and organizational skills",
-        "Ability to work in a fast-paced environment",
-        "Basic computer skills",
-        "Clean criminal record check",
-        "Reliable transportation"
-      ]
-    }
+    // {
+    //   title: "Warehouse Associates",
+    //   jobId: "warehouse",
+    //   location: "Calgary",
+    //   type: "Full-time / Part-time",
+    //   isActive: true,
+    //   summary: "Warehouse Associates play a crucial role in maintaining efficient operations within our facilities. They ensure accurate inventory management, safe handling of materials, and timely processing of orders in a fast-paced environment.",
+    //   responsibilities: [
+    //     "Perform picking, packing, and shipping duties with accuracy",
+    //     "Operate material handling equipment safely and efficiently",
+    //     "Maintain organized and clean warehouse spaces",
+    //     "Conduct inventory counts and maintain accurate records",
+    //     "Follow safety protocols and procedures",
+    //     "Assist with loading and unloading of materials",
+    //     "Collaborate with team members to meet operational goals"
+    //   ],
+    //   qualifications: [
+    //     "Previous warehouse experience preferred",
+    //     "Forklift certification (asset)",
+    //     "Physical ability to lift up to 50 lbs regularly",
+    //     "Strong attention to detail and organizational skills",
+    //     "Ability to work in a fast-paced environment",
+    //     "Basic computer skills",
+    //     "Clean criminal record check",
+    //     "Reliable transportation"
+    //   ]
+    // }
   ];

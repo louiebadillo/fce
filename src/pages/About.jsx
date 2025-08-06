@@ -1,11 +1,11 @@
 import HeroSection from "../components/HeroSection";
-import aboutus from "../assets/aboutus.jpg";
+import familyhero from "../assets/familyhero.jpg";
 
 const About = () => {
   return (
     <>
       <HeroSection
-        backgroundImage={aboutus}
+        backgroundImage={familyhero}
         title="About Us"
         highlightedText=""
         description=""
@@ -16,10 +16,10 @@ const About = () => {
           {/* About Us Section */}
           <section>
             <p className="text-gray-600 text-center">
-              Family Care Experts is a locally owned and operated care service
-              provider proudly serving Calgary and surrounding communities.
-              Since our establishment, we have been dedicated to delivering
-              exceptional in-home care services that families can trust.
+              Bonne Haven is a locally owned and operated care service provider
+              proudly serving Calgary and surrounding communities. Since our
+              establishment, we have been dedicated to delivering exceptional
+              care and other services that families can trust.
             </p>
           </section>
 
@@ -34,33 +34,32 @@ const About = () => {
             </p>
           </section>
 
-          {/* Commitment Section */}
           <section>
             <h2 className="text-3xl text-center font-semibold mb-4">
-              Our Commitment
+              Our Mission
             </h2>
-            <p className="text-gray-600">
-              Excellence is at the heart of everything we do. We understand that
-              each client has unique needs, which is why we develop customized
-              care plans that adapt and grow with them. Our approach combines
-              professional expertise with genuine compassion, ensuring that
-              every interaction reflects our dedication to superior care.
+            <p className="text-gray-600 text-center">
+              We are committed to providing dependable, compassionate, and
+              quality care services to all our clients, ensuring that every
+              individual receives personalized attention and support that
+              promotes their well-being and dignity. Through our dedicated team
+              of professionals and comprehensive range of services, we strive to
+              make a positive difference in the lives of those we serve while
+              maintaining the highest standards of excellence and trust.
             </p>
           </section>
 
-          {/* Team Section */}
           <section>
             <h2 className="text-3xl text-center font-semibold mb-4">
-              Our Team
+              Our Vision
             </h2>
             <p className="text-gray-600 text-center">
-              The Family Care Experts team consists of carefully selected
-              healthcare professionals, including registered nurses, certified
-              healthcare aides, and specialized support staff. Each team member
-              undergoes rigorous screening and continuous training to maintain
-              the highest standards of care. What truly sets our team apart is
-              not just their professional qualifications, but their genuine
-              passion for making a positive difference in people's lives.
+              We strive for excellence in all our services, delivered with
+              honesty, kindness, and professionalism, as we envision a future
+              where every individual receives exceptional care that enhances
+              their quality of life. Our vision is to be the leading provider of
+              compassionate, reliable services that set the standard for
+              excellence in healthcare and support delivery.
             </p>
           </section>
 
@@ -83,7 +82,7 @@ const About = () => {
                       Excellence:
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Delivering outstanding care that exceeds expectations
+                      Delivering outstanding care and other services that exceed expectations
                     </p>
                   </div>
                 </li>
@@ -98,7 +97,7 @@ const About = () => {
                       Compassion:
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Providing care with kindness, empathy, and understanding
+                      Providing care and services with kindness, empathy, and understanding
                     </p>
                   </div>
                 </li>
@@ -152,17 +151,6 @@ const About = () => {
             </div>
           </section>
 
-          {/* Closing Statement */}
-          <section className="p-8">
-            <p className="text-gray-700 text-center">
-              At Family Care Experts, we don't just provide care services – we
-              build lasting relationships based on trust, understanding, and
-              genuine concern for our clients' well-being. Our commitment to
-              Calgary families goes beyond basic care; we strive to be a trusted
-              partner in your family's journey, providing the support and peace
-              of mind you deserve.
-            </p>
-          </section>
         </div>
       </div>
     </>

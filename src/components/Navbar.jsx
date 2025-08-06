@@ -1,4 +1,4 @@
-import { Menu, X, ChevronDown } from "lucide-react"; // Added ChevronDown
+import { Menu, X, ChevronDown } from "lucide-react"; 
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
@@ -7,13 +7,12 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-  const [resourcesOpen, setResourcesOpen] = useState(false); // Added state for resources dropdown
+  const [resourcesOpen, setResourcesOpen] = useState(false); 
 
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
 
-  // Filter out the "Contact Us" item from navItems
   const filteredNavItems = navItems.filter(
     (item) => item.label !== "Contact Us"
   );
@@ -23,7 +22,7 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center flex-shrink-0">
-            <img className="h-20 w-50 mr-2" src={logo} alt="logo" />
+            <img className="h-20 w-50 ml-10" src={logo} alt="logo" />
           </Link>
           <ul className="hidden lg:flex ml-14 space-x-12">
             <li>
@@ -72,18 +71,18 @@ const Navbar = () => {
                 >
                   Financial Aid Resources
                 </Link>
-                <Link
+                {/* <Link
                   to="/services/staffing"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 transition-colors duration-150"
                 >
                   Facility Staffing Solutions
-                </Link>
-                <Link
+                </Link> */}
+                {/* <Link
                   to="/resources/faq"
                   className="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 transition-colors duration-150"
                 >
                   FAQ
-                </Link>
+                </Link> */}
               </div>
             </li>
             <li>

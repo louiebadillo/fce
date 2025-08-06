@@ -76,19 +76,18 @@ export const features = [
   },
   {
     icon: <Hospital />,
-    text: "Healthcare Facility Staffing",
+    text: "Laundry on Wheels / Cleaning Service",
     image: staffingImg,
-    path: "/services/staffing",
     description:
-      "Reliable staffing solutions for care facilities experiencing shortages. Our carefully selected healthcare professionals - including nurses, health care aides, and community support workers - ensure continuity of high-quality, person-centred care.",
+      "Mobile laundry and cleaning services that come to you. Our professional team provides sanitized laundry services and thorough cleaning solutions for healthcare facilities, ensuring convenience and maintaining the highest standards of hygiene.",
   },
   {
     icon: <Hospital />,
-    text: "Housekeeping / Cleaning Service",
+    text: "Housekeeping",
     image: housekeepingImg,
     path: "/services/housekeeping",
     description:
-      "From regular maintenance to deep cleaning, our professional housekeeping team ensures your home stays pristine and welcoming, giving you more time to focus on what matters most.",
+      "From regular maintenance to deep cleaning, our professional housekeeping team ensures that your home is clean  and welcoming, giving you more time to focus on what matters most.",
   },
 ];
 
@@ -103,18 +102,17 @@ export const resourcesLinks = [
 export const platformLinks = [
   { href: "/resources/cdhci", text: "CDHCI invoicing" },
   { href: "/resources/financial-aid", text: "Financial Aid" },
-  { href: "/services/staffing", text: "Staffing Solutions" },
-  { href: "/resources/faq", text: "FAQ" },
-  {
-    text: "Facebook",
-    href: "https://www.facebook.com/profile.php?id=61568824271268",
-  },
+  // { href: "/resources/faq", text: "FAQ" },
+  // {
+  //   text: "Facebook",
+  //   href: "https://www.facebook.com/profile.php?id=61568824271268",
+  // },
 ];
 
 export const communityLinks = [
   { href: "#", text: "128 Harvest Oak Way NE" },
   { href: "#", text: "Calgary, AB T2E 8S1" },
-  { href: "mailto:info@familycareexperts.com", text: "info@familycareexperts.com" },
+  { href: "mailto:info@bonnehaven.com", text: "info@bonnehaven.com" },
   { href: "#tel:+14036303717", text: "+1-403-630-3717" },
 ];
 

@@ -130,7 +130,7 @@ const Contact = () => {
                     <Mail size={20} />
                   </div>
                   <span className="font-semibold break-words">
-                    info@familycareexperts.com
+                    info@bonnehaven.com
                   </span>
                 </a>
               </div>

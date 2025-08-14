@@ -93,7 +93,7 @@ const FinancialAidCard = ({
             {eligibility}
           </Accordion>
 
-          <Accordion title="How can Family Care Experts Help?">
+          <Accordion title="How can Bonne Haven Help?">
             {helpInfo}
           </Accordion>
 

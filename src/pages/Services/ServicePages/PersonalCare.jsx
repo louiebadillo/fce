@@ -128,7 +128,7 @@ const PersonalCare = () => {
           {/* Why Choose Us Section */}
           <section className="mb-12 pt-5">
             <h2 className="text-2xl font-semibold mb-4">
-              Why Choose Family Care Experts
+              Why Choose Bonne Haven
             </h2>
             <div className="bg-gray-50 p-6 rounded-lg">
               <ul className="space-y-3 text-gray-600">

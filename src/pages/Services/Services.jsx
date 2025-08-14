@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import "./Services.css";
 import HeroSection from "../../components/HeroSection";
 import servicesHero from "../../assets/appointment.jpg";
+import OptimizedImage from "../../components/OptimizedImage";
 
 // Animation variants remain the same
 const containerVariants = {
@@ -187,10 +188,11 @@ const Services = () => {
                     }`}
                   >
                     <div className="relative group overflow-hidden rounded-lg w-full sm:w-[400px]">
-                      <img
+                      <OptimizedImage
                         src={service.image}
                         alt={service.text}
                         className="w-full h-[200px] sm:h-[250px] rounded-lg shadow-md"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         style={{
                           objectFit: "contain",
                           objectPosition: "center",

@@ -19,7 +19,7 @@ const Staffing = () => {
               Professional Healthcare Staffing
             </h2>
             <p className="text-gray-600 mb-4">
-              Reliable staffing solutions are offered by Family Care Experts to care facilities 
+              Reliable staffing solutions are offered by Bonne Haven to care facilities 
               experiencing staffing shortages. Our trained and caring care providers - including 
               nurses, health care aides and community support workers - are carefully selected 
               to ensure continuity of care and high-quality, person-centred service delivery.

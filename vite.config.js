@@ -1,7 +1,30 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'],
+          animations: ['framer-motion'],
+          icons: ['lucide-react']
+        }
+      }
+    },
+    // Optimize images during build
+    assetsInlineLimit: 4096, // Inline small assets
+    chunkSizeWarningLimit: 1000
+  },
+  // Optimize images
+  assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.webp'],
+  // Add compression headers
+  server: {
+    headers: {
+      'Cache-Control': 'public, max-age=31536000, immutable'
+    }
+  }
 })

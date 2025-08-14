@@ -57,7 +57,7 @@ const Careers = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-semibold mb-6">Career Opportunities</h2>
           <p className="text-gray-600 mb-8">
-            At Family Care Experts, we're looking for passionate healthcare professionals who share our 
+            At Bonne Haven, we're looking for passionate healthcare professionals who share our 
             commitment to providing exceptional care. Join our team and be part of making a difference 
             in our community.
           </p>

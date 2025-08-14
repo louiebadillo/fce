@@ -125,10 +125,10 @@ const CDHCI = () => {
           {/* How We Can Help Section */}
           <section className="bg-orange-300 p-8 rounded-lg">
             <h2 className="text-3xl font-semibold mb-6">
-              How Family Care Experts Can Help
+              How We Can Help
             </h2>
             <p className="text-gray-600 mb-4">
-              At Family Care Experts, we understand that managing home care
+              At Bonne Haven, we understand that managing home care
               services can be complex. Our dedicated team is here to support you
               through:
             </p>
@@ -154,7 +154,7 @@ const CDHCI = () => {
           <section className="text-center">
             <p className="text-gray-600 mb-6">
               Have questions about Client-Directed Home Care Invoicing? Contact
-              Family Care Experts today. We're here to help you understand your
+              Bonne Haven today. We're here to help you understand your
               options and make informed decisions about your care needs.
             </p>
             <a

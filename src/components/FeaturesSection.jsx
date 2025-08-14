@@ -16,7 +16,7 @@ const FeaturesSection = () => {
             compassionate, reliable home care services that you can trust.
           </p>
           <p className="text-neutral-600 text-lg">
-            At Family Care Experts, we understand that every client is unique.
+            At Bonne Haven, we understand that every client is unique.
             That's why we go above and beyond to provide personalized care
             solutions that make life easier for both clients and their families.
           </p>

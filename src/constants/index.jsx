@@ -110,9 +110,10 @@ export const platformLinks = [
 ];
 
 export const communityLinks = [
-  { href: "#", text: "128 Harvest Oak Way NE" },
-  { href: "#", text: "Calgary, AB T2E 8S1" },
+  { href: "#", text: "Unit 1736, 800 5 Avenue SW" },
+  { href: "#", text: "Calgary, Alberta T2P 3T6" },
   { href: "mailto:info@bonnehaven.com", text: "info@bonnehaven.com" },
-  { href: "#tel:+14036303717", text: "+1-403-630-3717" },
+  { href: "#tel:+14035463267", text: "+1-403-546-3267" },
+  { href: "#tel:+18773230732", text: "Toll Free: 1-877-323-0732" },
 ];
 

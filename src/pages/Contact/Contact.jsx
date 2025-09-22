@@ -114,16 +114,25 @@ const Contact = () => {
               </p>
               <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                 <a
-                  href="tel:14036303717"
+                  href="tel:14035463267"
                   className="flex items-center gap-3 text-orange-600 hover:text-red-600 transition-colors group w-full md:w-auto justify-center"
                 >
                   <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center group-hover:bg-orange-200 transition-colors flex-shrink-0">
                     <Phone size={20} />
                   </div>
-                  <span className="font-semibold">(403) 630-3717</span>
+                  <span className="font-semibold">(403) 546-3267</span>
                 </a>
                 <a
-                  href="mailto:info@familycareexperts.com"
+                  href="tel:18773230732"
+                  className="flex items-center gap-3 text-orange-600 hover:text-red-600 transition-colors group w-full md:w-auto justify-center"
+                >
+                  <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center group-hover:bg-orange-200 transition-colors flex-shrink-0">
+                    <Phone size={20} />
+                  </div>
+                  <span className="font-semibold">Toll Free: 1-877-323-0732</span>
+                </a>
+                <a
+                  href="mailto:info@bonnehaven.com"
                   className="flex items-center gap-3 text-orange-600 hover:text-red-600 transition-colors group w-full md:w-auto justify-center"
                 >
                   <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center group-hover:bg-orange-200 transition-colors flex-shrink-0">

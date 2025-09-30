@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 // Tracking utility functions
 export const trackPageView = (pageName, pagePath) => {
-  // Google Tag Manager - Page View
+  // Google Tag Manager - Page View (will trigger Meta Pixel through GTM)
   if (window.dataLayer) {
     window.dataLayer.push({
       event: 'page_view',
@@ -13,28 +13,15 @@ export const trackPageView = (pageName, pagePath) => {
       page_title: document.title
     });
   }
-
-  // Meta Pixel - Page View
-  if (window.fbq) {
-    window.fbq('track', 'PageView', {
-      content_name: pageName,
-      content_category: 'page_view'
-    });
-  }
 };
 
 export const trackEvent = (eventName, eventData = {}) => {
-  // Google Tag Manager - Custom Event
+  // Google Tag Manager - Custom Event (will trigger Meta Pixel through GTM)
   if (window.dataLayer) {
     window.dataLayer.push({
       event: eventName,
       ...eventData
     });
-  }
-
-  // Meta Pixel - Custom Event
-  if (window.fbq) {
-    window.fbq('track', eventName, eventData);
   }
 };
 

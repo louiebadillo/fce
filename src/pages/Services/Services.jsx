@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "./Services.css";
 import HeroSection from "../../components/HeroSection";
+import SEO from "../../components/SEO";
 import servicesHero from "../../assets/appointment.jpg";
 import OptimizedImage from "../../components/OptimizedImage";
 
@@ -45,6 +46,11 @@ const serviceVariants = {
 const Services = () => {
   return (
     <>
+      <SEO 
+        title="Our Services"
+        description="Discover Bonne Haven's comprehensive home care services in Calgary. From personal care and companionship to dementia care, respite care, palliative care, and special needs support. Personalized care solutions for every need."
+        keywords="home care services Calgary, personal care services, companionship care, dementia care, respite care, palliative care, special needs support, meal preparation, housekeeping services Calgary"
+      />
       <HeroSection
         backgroundImage={servicesHero}
         title="Our Services"

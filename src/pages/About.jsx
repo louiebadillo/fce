@@ -1,9 +1,15 @@
 import HeroSection from "../components/HeroSection";
+import SEO from "../components/SEO";
 import familyhero from "../assets/familyhero.jpg";
 
 const About = () => {
   return (
     <>
+      <SEO 
+        title="About Us"
+        description="Learn about Bonne Haven, a locally owned and operated care service provider in Calgary. We are committed to enhancing the quality of life for seniors, individuals with special needs, and families through personalized, compassionate care services."
+        keywords="about Bonne Haven, Calgary care services, home care provider Calgary, senior care Calgary, compassionate care services"
+      />
       <HeroSection
         backgroundImage={familyhero}
         title="About Us"

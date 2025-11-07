@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import Swal from "sweetalert2";
 import { Mail, Phone } from "lucide-react";
+import SEO from "../../components/SEO";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -96,6 +97,11 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-gray-200 py-12">
+      <SEO 
+        title="Contact Us"
+        description="Get in touch with Bonne Haven for personalized home care services in Calgary. Contact us to learn more about our senior care, special needs support, companionship, and other care services. We're here to help."
+        keywords="contact Bonne Haven, Calgary home care contact, care services inquiry, home care consultation Calgary"
+      />
       <div className="container mx-auto px-4">
         {/* Description Section */}
         <div className="max-w-4xl mx-auto text-center mb-12">

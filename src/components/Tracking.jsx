@@ -13,6 +13,15 @@ export const trackPageView = (pageName, pagePath) => {
       page_title: document.title
     });
   }
+  
+  // Direct Google Analytics 4 tracking
+  if (window.gtag) {
+    window.gtag('config', 'G-Q7DD06NLRM', {
+      page_path: pagePath,
+      page_title: document.title,
+      page_location: window.location.href
+    });
+  }
 };
 
 export const trackEvent = (eventName, eventData = {}) => {
@@ -22,6 +31,11 @@ export const trackEvent = (eventName, eventData = {}) => {
       event: eventName,
       ...eventData
     });
+  }
+  
+  // Direct Google Analytics 4 tracking
+  if (window.gtag) {
+    window.gtag('event', eventName, eventData);
   }
 };
 
